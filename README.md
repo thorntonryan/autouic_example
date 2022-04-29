@@ -23,8 +23,8 @@ File / Folder   | Project Name      | Purpose
 Build the sample project by doing the following:
 
 ```cmd
-> git clone repo
-> cd repo
+> git clone https://github.com/thorntonryan/autouic_example.git
+> cd autouic_example
 > cmake -S . --preset Debug
 > cmake --build build\cmake_issue_16776 --target all
 ```
@@ -90,7 +90,8 @@ Fixing the paths allows ninja to build in one pass.
 Build the sample project by doing the following:
 
 ```cmd
-> git clone repo
+> git clone https://github.com/thorntonryan/autouic_example.git
+> cd autouic_example  
 > cmake -S src --preset Debug
 > cmake --build build\cmake_issue_22531 --target all
 ```
@@ -180,7 +181,8 @@ should resolve the issue.
 Build the sample project by doing the following:
 
 ```cmd
-> git clone repo
+> git clone https://github.com/thorntonryan/autouic_example.git
+> cd autouic_example
 > cmake -S improved --preset Debug
 > cmake --build build\qt_wrap_methods --target all
 ```
